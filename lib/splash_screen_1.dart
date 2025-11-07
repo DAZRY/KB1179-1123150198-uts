@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class MyWidget extends StatelessWidget {
-  const MyWidget({super.key});
+class MySplashScreen extends StatelessWidget {
+  const MySplashScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,9 +20,10 @@ class MyWidget extends StatelessWidget {
                 color: Colors.green,
                 image: DecorationImage(
                   image: AssetImage("/images/Roblox1.png"),
-                  fit: BoxFit.cover,) 
+                  fit: BoxFit.cover,
+                ),
               ),
-            )
+            ),
           ],
         ),
       ),
