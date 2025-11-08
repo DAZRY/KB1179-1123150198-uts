@@ -1,16 +1,28 @@
-# kb1179_1123150198_uts
+# Project UTS Aplikasi Mobile
 
-A new Flutter project.
+## Hasil Screenshot
+Berikut hasil tampilan aplikasi:
 
-## Getting Started
+### Tampilan Desktop
+![Tampilan Aplikasi Desktop 1](assets/images/Splash1.png)
+![Tampilan Aplikasi Desktop 2](assets/images/Splash2.png)
+![Tampilan Aplikasi Desktop 3](assets/images/Splash3.png)
+![Tampilan Aplikasi Desktop 4](assets/images/Login.png)
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Nama Lengkap
+**Syailendra Fas Faye**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## NIM
+**1123150198**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Cara Menjalankan Project
+1. Buka folder project aplikasi
+2. Klik kanan pada isi folder lalu buka terminal
+![Dependencies](assets/images/SSterminal.png)
+3. Jalankan perintah di terminal: "flutter run"
+
+## Thank You
