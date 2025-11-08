@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'splash_screen_3.dart';
+import 'splash_screen_2.dart';
 
-class MySplashScreen2 extends StatelessWidget {
-  const MySplashScreen2({super.key});
+class MySplashScreen3 extends StatelessWidget {
+  const MySplashScreen3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class MySplashScreen2 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.transparent,
                 image: DecorationImage(
-                  image: AssetImage("/images/Roblox2.png"),
+                  image: AssetImage("/images/Roblox3.png"),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -37,7 +37,7 @@ class MySplashScreen2 extends StatelessWidget {
             ),
             SizedBox(height: 25),
             Text(
-              "Don't worry! we got you cover. \n Use wallie instead of cash!",
+              "Let's try Wallie now! \n And get the best solution.",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 25,
