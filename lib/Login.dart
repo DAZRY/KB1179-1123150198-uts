@@ -170,6 +170,16 @@ class LoginPage extends StatelessWidget {
                     ),
                   ],
                 ),
+                SizedBox(height: 10),
+            Text(
+              "1123150198",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 15,
+                color: Colors.green,
+                fontWeight: FontWeight.normal,
+              ),
+            ),
               ],
             ),
           ),
