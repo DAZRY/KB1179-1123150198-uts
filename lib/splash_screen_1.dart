@@ -27,9 +27,18 @@ class MySplashScreen extends StatelessWidget {
             SizedBox(height: 20),
             Text(
               "test",
-              textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 30.0,
+                color: Colors.blue,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            SizedBox(height: 25),
+            Text(
+              "Haloo ini halaman 1",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 25,
                 color: Colors.blue,
                 fontWeight: FontWeight.bold,
               ),
@@ -55,11 +64,17 @@ class MySplashScreen extends StatelessWidget {
                     color: Colors.purple[100],
                   ),
                 ),
-              ],
-            ),
-          ],
-        ),
         SizedBox(height: 20),
+        Container(
+          height: 10,
+          width: 10,
+          decoration: BoxDecoration(
+            shape: BoxShape.circle,
+            color: Colors.purple[100],
+          ),
+        ),
+      ],
+      SizedBox(height: 20),
         Container(
           margin: EdgeInsets.only(left: 40, right: 40),
           child: SizedBox(
@@ -69,7 +84,7 @@ class MySplashScreen extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => MySplashScreen2()
+                  MaterialPageRoute(builder: (context) => MySplashScreen2(),
                   ),
                 );
               },
@@ -77,7 +92,7 @@ class MySplashScreen extends StatelessWidget {
                     backgroundColor: Colors.green,
                   ),
                   child: Text(
-                    "Halaman Selanjutnya",
+                    "Ke Page Selanjutnya",
                     style: TextStyle(
                       fontSize: 20.0,
                       color: Colors.white,
@@ -88,6 +103,7 @@ class MySplashScreen extends StatelessWidget {
           ),
         ),
         SizedBox(height: 70),
+      ],
       ),
     );
   }
