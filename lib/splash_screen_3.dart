@@ -86,10 +86,11 @@ class MySplashScreen3 extends StatelessWidget {
             width: double.infinity,
             child: ElevatedButton(
               onPressed: () {
-                Navigator.push(
+                Navigator.pushAndRemoveUntil(
                   context,
                   MaterialPageRoute(builder: (context) => LoginPage(),
                   ),
+                  (Route<dynamic> route) => false,
                 );
               },
               style: ElevatedButton.styleFrom(
