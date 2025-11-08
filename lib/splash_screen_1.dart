@@ -56,7 +56,7 @@ class MySplashScreen extends StatelessWidget {
                     color: Colors.green,
                   ),
                 ),
-                const SizedBox(width: 18),
+                const SizedBox(width: 8),
                 Container(
                   height: 8,
                   width: 8,
@@ -65,31 +65,22 @@ class MySplashScreen extends StatelessWidget {
                     color: Colors.green[100],
                   ),
                 ),
-        const SizedBox(height: 8),
-        Container(
-          height: 8,
-          width: 8,
-          decoration: BoxDecoration(
-            shape: BoxShape.circle,
-            color: Colors.green[100],
-          ),
-        ),
-        const SizedBox(width: 8),
-        Container(
-          height: 8,
-          width: 8,
-          decoration: BoxDecoration(
-            shape: BoxShape.circle,
-            color: Colors.green[100],
-          ),
-        )
-      ],
+                const SizedBox(width: 8),
+                Container(
+                  height: 8,
+                  width: 8,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.green[100],
+                  ),
+                )
+              ],
       ),
       SizedBox(height: 20),
         Container(
           margin: EdgeInsets.only(left: 20, right: 20),
           child: SizedBox(
-            height: 40,
+            height: 55,
             width: double.infinity,
             child: ElevatedButton(
               onPressed: () {
@@ -100,12 +91,12 @@ class MySplashScreen extends StatelessWidget {
                 );
               },
               style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.green,
+                    backgroundColor: const Color(0xFF00C853),
                   ),
                   child: Text(
                     "Continue",
                     style: TextStyle(
-                      fontSize: 20.0,
+                      fontSize: 18.0,
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
                     ),
