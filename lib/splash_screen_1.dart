@@ -14,11 +14,11 @@ class MySplashScreen extends StatelessWidget {
             Spacer(),
             SizedBox(height: 20),
             Container(
-              height: 200,
-              width: 200,
+              height: 220,
+              width: 220,
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: Colors.green,
+                color: Colors.transparent,
                 image: DecorationImage(
                   image: AssetImage("/images/Roblox1.png"),
                   fit: BoxFit.cover,
@@ -29,9 +29,9 @@ class MySplashScreen extends StatelessWidget {
             Text(
               "Welcome",
               style: TextStyle(
-                fontSize: 30.0,
-                color: Colors.blue,
-                fontWeight: FontWeight.bold,
+                fontSize: 28.0,
+                color: Colors.black,
+                fontWeight: FontWeight.w700,
               ),
             ),
             SizedBox(height: 25),
@@ -40,8 +40,8 @@ class MySplashScreen extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 25,
-                color: Colors.blue,
-                fontWeight: FontWeight.bold,
+                color: Colors.green,
+                fontWeight: FontWeight.normal,
               ),
             ),
             SizedBox(height: 25),
@@ -49,36 +49,45 @@ class MySplashScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  height: 10,
-                  width: 10,
+                  height: 8,
+                  width: 8,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     color: Colors.green,
                   ),
                 ),
-                SizedBox(width: 10),
+                const SizedBox(width: 18),
                 Container(
-                  height: 10,
-                  width: 10,
+                  height: 8,
+                  width: 8,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.purple[100],
+                    color: Colors.green[100],
                   ),
                 ),
-        SizedBox(height: 20),
+        const SizedBox(height: 8),
         Container(
-          height: 10,
-          width: 10,
+          height: 8,
+          width: 8,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            color: Colors.purple[100],
+            color: Colors.green[100],
           ),
         ),
+        const SizedBox(width: 8),
+        Container(
+          height: 8,
+          width: 8,
+          decoration: BoxDecoration(
+            shape: BoxShape.circle,
+            color: Colors.green[100],
+          ),
+        )
       ],
       ),
       SizedBox(height: 20),
         Container(
-          margin: EdgeInsets.only(left: 40, right: 40),
+          margin: EdgeInsets.only(left: 20, right: 20),
           child: SizedBox(
             height: 40,
             width: double.infinity,
@@ -94,7 +103,7 @@ class MySplashScreen extends StatelessWidget {
                     backgroundColor: Colors.green,
                   ),
                   child: Text(
-                    "Ke Page Selanjutnya",
+                    "Continue",
                     style: TextStyle(
                       fontSize: 20.0,
                       color: Colors.white,
