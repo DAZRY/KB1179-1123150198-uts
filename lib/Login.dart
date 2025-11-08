@@ -22,7 +22,29 @@ class LoginPage extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     color: Colors.black,
                   ),
-                )
+                ),
+                const Text(
+                "Silahkan Login untuk melanjutkan.",
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 12, color: Colors.green),
+                ),
+                const SizedBox(height: 20),
+                TextField(
+                  keyboardType: TextInputType.emailAddress,
+                  decoration: const InputDecoration(
+                    prefixIcon: Icon(Icons.email_outlined),
+                    labelText: 'Email',
+                    hintText: 'Masukan email anda',
+                    enabledBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(25)),
+                      borderSide: BorderSide(color: Colors.grey),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(25)),
+                      borderSide: BorderSide(color: Colors.green, width: 2),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
