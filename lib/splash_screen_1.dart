@@ -46,11 +46,48 @@ class MySplashScreen extends StatelessWidget {
                     color: Colors.green,
                   ),
                 ),
-                
+                SizedBox(width: 10),
+                Container(
+                  height: 10,
+                  width: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.purple[100],
+                  ),
+                ),
               ],
             ),
           ],
         ),
+        SizedBox(height: 20),
+        Container(
+          margin: EdgeInsets.only(left: 40, right: 40),
+          child: SizedBox(
+            height: 40,
+            width: double.infinity,
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => MySplashScreen2()
+                  ),
+                );
+              },
+              style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.green,
+                  ),
+                  child: Text(
+                    "Halaman Selanjutnya",
+                    style: TextStyle(
+                      fontSize: 20.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+            ),
+          ),
+        ),
+        SizedBox(height: 70),
       ),
     );
   }
