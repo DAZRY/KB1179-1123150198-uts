@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -101,6 +102,26 @@ class LoginPage extends StatelessWidget {
                     ),
                   ),
                 ),
+                const SizedBox(height: 10),
+                Row(
+                             children: const [
+                    Expanded(
+                      child: Divider(
+                        color: Colors.grey,
+                        thickness: 1,
+                        endIndent: 10,
+                      ),
+                    ),
+                    Text("atau", style: TextStyle(color: Colors.grey)),
+                    Expanded(
+                      child: Divider(
+                        color: Colors.grey,
+                        thickness: 1,
+                        indent: 10,
+                      ),
+                    ),
+                  ],
+                )
               ],
             ),
           ),
