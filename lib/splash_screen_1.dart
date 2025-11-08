@@ -27,7 +27,7 @@ class MySplashScreen extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Text(
-              "test",
+              "Welcome",
               style: TextStyle(
                 fontSize: 30.0,
                 color: Colors.blue,
@@ -36,7 +36,7 @@ class MySplashScreen extends StatelessWidget {
             ),
             SizedBox(height: 25),
             Text(
-              "Haloo ini halaman 1",
+              "Forgot to bring your wallet when you are shopping?",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 25,
