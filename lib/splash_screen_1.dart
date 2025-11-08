@@ -29,6 +29,7 @@ class MySplashScreen extends StatelessWidget {
             Text(
               "Welcome",
               style: TextStyle(
+                fontFamily: 'Roboto',
                 fontSize: 28.0,
                 color: Colors.black,
                 fontWeight: FontWeight.w700,
@@ -36,7 +37,7 @@ class MySplashScreen extends StatelessWidget {
             ),
             SizedBox(height: 25),
             Text(
-              "Forgot to bring your wallet when you are shopping?",
+              "Forgot to bring your wallet \n when you are shopping?",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 25,
