@@ -54,7 +54,7 @@ class MySplashScreen extends StatelessWidget {
                   width: 8,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.green,
+                    color: Color.fromARGB(255, 3, 136, 8),
                   ),
                 ),
                 const SizedBox(width: 8),
