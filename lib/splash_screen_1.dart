@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'splash_screen_2.dart';
 
 class MySplashScreen extends StatelessWidget {
   const MySplashScreen({super.key});
@@ -74,6 +75,7 @@ class MySplashScreen extends StatelessWidget {
           ),
         ),
       ],
+      ),
       SizedBox(height: 20),
         Container(
           margin: EdgeInsets.only(left: 40, right: 40),
@@ -105,6 +107,7 @@ class MySplashScreen extends StatelessWidget {
         SizedBox(height: 70),
       ],
       ),
+    ),
     );
   }
 }
