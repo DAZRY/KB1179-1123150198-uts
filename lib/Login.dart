@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -121,6 +123,35 @@ class LoginPage extends StatelessWidget {
                       ),
                     ),
                   ],
+                ),
+                const SizedBox(height: 10),
+                SizedBox(
+                  width: double.infinity,
+                  height: 40,
+                  child: OutlinedButton.icon(
+                    onPressed: () {
+                      // Aksi login google
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(
+                          content: Text('Melakukan login dengan Google...'),
+                          backgroundColor: Colors.blue,
+                        ),
+                      );
+                    },
+                    // Menggunakan Icon.public sebagai placeholder yang lebih umum
+                    icon: const Icon(Icons.public, color: Colors.black),
+                    label: const Text(
+                      "Login dengan Google",
+                      style: TextStyle(color: Colors.black, fontSize: 16),
+                    ),
+                    style: OutlinedButton.styleFrom(
+                      side: const BorderSide(color: Colors.grey),
+                      shape: RoundedRectangleBorder(
+                        // Menyamakan radius dengan tombol utama
+                        borderRadius: BorderRadius.circular(25),
+                      ),
+                    ),
+                  ),
                 )
               ],
             ),
